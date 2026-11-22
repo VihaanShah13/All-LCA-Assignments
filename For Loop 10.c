@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int n, i, count = 0;
+
+    printf("Enter the value of N:\n");
+    scanf("%d", &n);
+
+    for (i = 1; i <= n; i++) {
+        if (i % 5 == 0) {
+            count++;
+        }
+    }
+
+    printf("Count of numbers divisible by 5: %d\n", count);
+
+    return 0;
+}
